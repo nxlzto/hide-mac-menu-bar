@@ -8,13 +8,10 @@
    <img src="/images/menu.png" width="700">
 </p>
 
-## Install Homebrew
-
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
 
 ## Install Yabai
+> If Homebrew is Not Installed, Please Refer to the Link for Installation. [brew.sh](https://brew.sh/)
+
 
 ```bash
 brew install koekeishiya/formulae/yabai
