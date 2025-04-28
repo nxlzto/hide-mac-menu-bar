@@ -1,29 +1,33 @@
 > [!TIP]
 > To completely hide the Mac OS menu bar using Yabai.
 
-### Automatically hide menu bar
+## Automatically hide menu bar
 
 1. Go to Control Center
-   ![[/images/menu.png]]
+<p>
+   <img src="/images/menu.png" width="700">
+</p>
 
-### Install Homebrew
+## Install Homebrew
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-### Install Yabai
+## Install Yabai
 
 ```bash
 brew install koekeishiya/formulae/yabai
 ```
 
-### Accessibility
+## Accessibility
 
 1. Go to Privacy & Security > Accessibility
-   ![[/images/yabai.png]]
+<p>
+   <img src="/images/yabai.png" width="700">
+</p>
 
-### .yabairc
+## .yabairc
 
 ```bash
 #1 create yabairc file
@@ -33,7 +37,7 @@ vim ~/.yabairc
 yabai -m config menubar_opacity 0.0
 ```
 
-### Start & Stop yabai
+## Start & Stop yabai
 
 ```bash
 # start
@@ -43,7 +47,7 @@ yabai --start-service
 yabai --stop-service
 ```
 
-### Raycast script
+## Raycast script
 
 > vim ~/raycast/scripts/yabai.sh
 
@@ -78,6 +82,7 @@ fi
 
 ```
 
-### Reference
-
-![[/images/raycast.png]]
+## Reference 
+<p>
+   <img src="/images/raycast.png" width="700">
+</p>
