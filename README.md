@@ -17,12 +17,6 @@
 brew install koekeishiya/formulae/yabai
 ```
 
-## Accessibility
-
-1. Go to Privacy & Security > Accessibility
-<p>
-   <img src="/images/yabai.png" width="700">
-</p>
 
 ## .yabairc
 
@@ -43,6 +37,14 @@ yabai --start-service
 # stop
 yabai --stop-service
 ```
+
+## Accessibility
+
+1. Go to Privacy & Security > Accessibility
+<p>
+   <img src="/images/yabai.png" width="700">
+</p>
+
 
 ## Raycast script
 
